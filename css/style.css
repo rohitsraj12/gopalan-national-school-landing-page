@@ -1,0 +1,232 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@100;200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap');
+:root {
+    --color-white: #ffffff;
+    --color-dark: #111111;
+    --color-nav: #353535;
+    --theme:  #fc4a1a;
+
+    --color-orange: #fa9046;
+    --color-yellow-light: #ffe976;
+    --color-yellow-dark: #f8c021;
+
+    --btn-primary-hover: #1b2b35;
+    --btn-primary: #094875;
+  }
+
+  html {
+  scroll-behavior: smooth;
+    /* font-family: 'Barlow Semi Condensed', sans-serif; */
+  }
+
+/* =======================
+    
+    #base style 
+    
+===========================*/
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+p {
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-size: 1.1rem;
+}
+
+h2 {
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-size: 1.5rem;
+}
+
+h5 {
+    font-family: 'Barlow Semi Condensed', sans-serif;
+
+}
+
+strong {
+    font-weight: normal;
+}
+
+.btn__primary {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: var(--btn-primary);
+    color: var(--color-white);
+}
+
+.btn__primary:hover, a.btn__primary:hover {
+    background-color:var(--btn-primary-hover);
+    color: var(--color-white);
+}
+
+.body__wrap {
+    position: relative;
+}
+
+.wrap__container {
+    margin: 0 auto;
+}
+
+.section__header {
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: #313131;
+    text-transform: uppercase;
+}
+
+/* =======================
+    
+    #body header
+    
+===========================*/
+.body__header {
+    width: 100%;
+    /* position: absolute;
+    top: 10px;
+    z-index: 9; */
+}
+
+.header-fixed {
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    /* background-color: rgba(0, 0, 0, 0.685); */
+    background-color:#1b2b35f6;
+    z-index: 99;
+}
+
+.body__header header {
+    padding: 15px 25px;
+    /* background-color: rgb(3, 0, 0);
+    box-shadow: 0 2px 6px rgba(0,0,0,0.5) ; */
+}
+
+.header__nav .nav__link {
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: rgb(75, 75, 75);
+    transition: 300ms;
+}
+
+.header__nav .nav__link:hover {
+    color: rgb(136, 136, 136);
+}
+
+
+
+.header-fixed .header__nav .nav__link {
+    color: rgb(255, 255, 255);
+
+}
+
+/* =======================
+    
+    #body banner
+    
+===========================*/
+
+.body__banner img {
+    width: 100%;
+    height: 70vh;
+}
+
+.banner__form {
+    position: relative;
+    padding: 100px 0;
+}
+
+.syllabus__form{
+    padding: 20px 20px;
+    width: 100%;
+    /* border: 1px solid #e8e8e8;
+    background-color: rgba(255, 255, 255, 0.973); */
+    position: absolute;
+    top: -150px;
+    border-radius: 4px;
+}
+
+/* =======================
+    
+    #body container 
+    
+===========================*/
+.body__container {
+    padding: 25px 0;
+}
+
+/*  #section syllabus
+===========================*/
+.section__syllabus {
+    padding: 100px 0 0;
+}
+
+/*  #section about
+===========================*/
+.section__about {
+    margin: 100px 0 0;
+    padding: 100px 0;
+}
+
+/* section facility
+============================ */
+
+.offer__block{
+    margin-bottom: 100px;
+}
+
+.offer__icon {
+    padding-bottom: 20px;
+}
+
+.offer__block h2 {
+    padding-bottom: 10px;
+}
+
+.offer__icon svg{
+    fill: #094875;
+}
+
+/* section testimonial
+=========================== */
+
+.section__testimonial .section__body {
+    width: 80%;
+    margin: 0 auto;
+}
+
+
+.section__testimonial .section__body iframe{
+    width: 100%;
+    height: 400px;
+}
+
+/*  section contact
+============================ */
+.section__form {
+
+}
+
+.map {
+    width: 100%;
+    min-height: 500px;
+}
+
+/* =======================
+    
+    #body footer
+    
+===========================*/
+
+.body__footer {
+    background-color: #3a3a3a;
+
+}
